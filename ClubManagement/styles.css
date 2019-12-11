@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+* {
+    font-family: 'Lato', sans-serif;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgba(1, 1, 1, .1);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.clrfix {
+    clear: both;
+    display: block;
+}
+
+.main-title {
+    font-size: 4em;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 20px 0 50px;
+}
+
+.btn {
+    display: block;
+    width: 300px !important;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px auto;
+    cursor: pointer;
+    font-size: 1em !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.green {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+.black {
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+}
+
+form input, form textarea {
+	font-size: 1.1em;
+	width: calc(100% - 30px);
+	height: 50px;
+	padding: 0 15px;
+	background-color: #FFFFFF;
+	color: #000000;
+	line-height: 60px;
+	margin: 15px 0;
+	display: block;
+}
+
+form textarea {
+	height: 150px;
+}
+
+.radio-group {
+	width: 150px;
+	float: left;
+	display: inline-block;
+}
+.radio-group input {
+	width: 10px;
+	height: 10px;
+}
+
+.radio-group input, .radio-group label {
+	float: left;
+	display: inline-block;
+}
+
+.radio-group label {
+	margin: 0 0 0 20px;
+	line-height: 40px;
+}
+
+form span {
+	color: red;
+}
+
+.sucess-msg, .error-msg {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #4CAF50;
+}
+
+.error-msg {
+	color: red;
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+    background: #000000;
+}
+
+header .logo,
+header ul.nav {
+    float: right;
+}
+
+header .logo {
+    display: block;
+    height: 130px;
+    width: 130px;
+    margin: 20px 50px 0 100px;
+    text-indent: -999999999px;
+    background-image: url(img/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-color: #FFFFFF;
+}
+
+header ul.nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+header ul.nav li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.home-page {
+    background-image: url(img/01.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100vw;
+}
+
+.home-page .main-title {
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+
+.home-page .btn {
+    margin-bottom: 250px;
+}
+
+table {
+	width: 900px;
+	margin: 30px auto;
+}
+
+table td, table th {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    text-transform: uppercase;
+}
+
+footer {
+    width: 100vw;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+footer p {
+    padding: 20px 0;
+}
+
+.copy {
+    padding-top: 15px;
+    border-top: thin solid #FFFFFF;
+}
